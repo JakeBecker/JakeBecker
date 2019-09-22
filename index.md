@@ -1,91 +1,53 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Jake Beckers's CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Jake Becker
+Elixir programmer. I wrote ElixirLS, a popular IDE plugin for Elixir developers. I also do Erlang, Ruby, and Javascript. 
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="mailto:jake@jakebecker.org">jake@jakebecker.org</a>
+| <a href="https://github.com/JakeBecker">My Github</a>
 </div>
 
 
-## Currently
+## Open-source work
 
-Standing on the shoulders of giants
+`2017-now`
 
-### Specialized in
+### [ElixirLS](https://github.com/JakeBecker/elixir-ls) (owner)
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+An IDE "smartness" server I wrote that powers IDE plugins for Elixir using the the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/). Provides features such as auto-completion, go-to-definition, compilation and error reporting, debugger integration, and quick static analysis using a customized Dialyzer. The [VS Code Elixir plugin](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls) it powers is one of the most popular IDE plugins among Elixir developers.
 
+### [Elixir](https://github.com/elixir-lang/elixir) (contributor)
 
-### Research interests
+I contributed changes to Elixir to make it report compile errors and warnings in a standardized way that can be utilized by editors and IDE plugins. I added the behaviour [Mix.Task.Compiler](https://hexdocs.pm/mix/Mix.Task.Compiler.html) and updated the compiler modules included in Elixir to adhere to it.
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+### [Ecto](https://github.com/elixir-ecto/ecto) (contributor)
 
+I contributed changes to Ecto's domain-specific query language and SQL adapter to support comparison between tuples of fields when querying a relational database. (For example, WHERE ("Jake", "Becker") > (first_name, last_name)). This is supported by most relational databases and is useful for certain kinds of cursor-based pagination.
+
+### [IntelliJ Elixir](https://github.com/KronicDeth/intellij-elixir) (contributor)
+
+I added support for Elixir's debugger and for ExUnit tests using the IDE's graphical test runner. To my knowledge, IntelliJ Elixir and VS Code ElixirLS are the only two IDE plugins for Elixir that include debugger support.
+
+## Treasure Data
+
+`2013-2017`
+
+### Lead API Engineer
+
+I implemented and maintained Treasure Data's API, written in Ruby on Rails. It powers a CLI client and a web app. I also contributed to the web app, which was written initially in Angular 1.x and then later in React. Treasure Data was acquired by Arm in 2018 for approximately $600 million.
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+### Stanford
 
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
-
-
-
-## Awards
-
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
-
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
+`Class of 2012`
+B.S. in Computer Science
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: September 2019 -->
 
 
