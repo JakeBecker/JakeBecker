@@ -1,13 +1,13 @@
 ---
 layout: cv
-title: Jake Beckers's CV
+title: Jake Becker
 ---
 # Jake Becker
 Elixir programmer. I wrote ElixirLS, a popular IDE plugin for Elixir developers. I also do Erlang, Ruby, and Javascript. 
 
 <div id="webaddress">
 <a href="mailto:jake@jakebecker.org">jake@jakebecker.org</a>
-| <a href="https://github.com/JakeBecker">My Github</a>
+| <a href="https://github.com/JakeBecker">github.com/JakeBecker</a>
 </div>
 
 
@@ -17,15 +17,15 @@ Elixir programmer. I wrote ElixirLS, a popular IDE plugin for Elixir developers.
 
 ### [ElixirLS](https://github.com/JakeBecker/elixir-ls) (owner)
 
-An IDE "smartness" server I wrote that powers IDE plugins for Elixir using the the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/). Provides features such as auto-completion, go-to-definition, compilation and error reporting, debugger integration, and quick static analysis using a customized Dialyzer. The [VS Code Elixir plugin](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls) it powers is one of the most popular IDE plugins among Elixir developers.
+An IDE "smartness" server I wrote that powers IDE plugins for Elixir using the the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/). Provides features such as auto-completion, go-to-definition, compilation and error reporting, debugger integration, and quick static analysis using a modified Dialyzer. The [VS Code Elixir plugin](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls) it powers is one of the most popular IDE plugins among Elixir developers.
 
 ### [Elixir](https://github.com/elixir-lang/elixir) (contributor)
 
-I contributed changes to Elixir to make it report compile errors and warnings in a standardized way that can be utilized by editors and IDE plugins. I added the behaviour [Mix.Task.Compiler](https://hexdocs.pm/mix/Mix.Task.Compiler.html) and updated the compiler modules included in Elixir to adhere to it.
+I contributed changes to Elixir to make it report compile errors and warnings in a standardized way that can be utilized by editors and IDE plugins. I added the behaviour [Mix.Task.Compiler](https://hexdocs.pm/mix/Mix.Task.Compiler.html) and updated Elixir's compilers to adhere to it.
 
 ### [Ecto](https://github.com/elixir-ecto/ecto) (contributor)
 
-I contributed changes to Ecto's domain-specific query language and SQL adapter to support comparison between tuples of fields when querying a relational database. (For example, WHERE ("Jake", "Becker") > (first_name, last_name)). This is supported by most relational databases and is useful for certain kinds of cursor-based pagination.
+I contributed changes to Ecto's domain-specific query language and SQL adapter to support comparison between tuples of fields. (For example, WHERE ("Jake", "Becker") > (first_name, last_name)). This is supported by most relational databases and is useful for certain kinds of cursor-based pagination.
 
 ### [IntelliJ Elixir](https://github.com/KronicDeth/intellij-elixir) (contributor)
 
